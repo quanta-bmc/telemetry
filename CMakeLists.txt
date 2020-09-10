@@ -52,7 +52,7 @@ endif ()
 target_link_libraries (monitoring-service systemd)
 target_link_libraries (monitoring-service stdc++fs)
 target_link_libraries (monitoring-service sdbusplus)
-target_link_libraries (monitoring-service boost_date_time)
+#target_link_libraries (monitoring-service boost_date_time)
 target_link_libraries (monitoring-service boost_coroutine)
 
 target_compile_definitions (
